@@ -27,6 +27,7 @@ of class requirements.)
 ##Question 5:
 
  This example use char arrays to hold the character data, but you could use string class objects instead.
+ ``` cpp
 
 // #include <cstring>
 
@@ -60,6 +61,8 @@ void withdraw(double cash);
 
 };
 
+```
+
 ##Question 6:
 
  A class constructor is called when you create an object of that class or when you
@@ -68,6 +71,7 @@ explicitly call the constructor.A class destructor is called when the object exp
 ##Question 7:
 
  These are two possible solutions (note that you must include cstring or string.h in order to use strncpy() or else you must include string to use the string class):
+  ``` cpp
  
 BankAccount::BankAccount(const char * client, const char * num, double bal)
 
@@ -99,7 +103,7 @@ acctnum = num;
 
 balance = bal;
 
-}
+ ``` 
 
 Keep in mind that default arguments go in the prototype, not in the function definition.
 
@@ -111,12 +115,13 @@ them, even if you’ve already defined an initializing constructor. It also allo
 declare arrays.
 
 ##Question 9 :
+ ``` cpp
 
  // stock30.h
 
-\#ifndef STOCK30_H_
+#ifndef STOCK30_H_
 
-\#define STOCK30_H_
+#define STOCK30_H_
 
 class Stock
 
@@ -161,6 +166,7 @@ double totalval() const { return total_val; }
 const string & co_name() const { return company; }
 
 };
+ ``` 
 
 ##Question 10:
 
