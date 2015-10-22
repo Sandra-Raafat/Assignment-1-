@@ -1,6 +1,6 @@
 
-#ifndef ex1BankAccount_H_
-#define ex1BankAccount_H_
+#ifndef BankAccount_H_
+#define BankAccount_H_
 
 #include <string>
 using std::string;
