@@ -26,9 +26,7 @@ of class requirements.)
 
 ##Question 5:
 
- This example use char arrays to hold the character data, but you could use string
- 
-class objects instead.
+ This example use char arrays to hold the character data, but you could use string class objects instead.
 
 // #include <cstring>
 
@@ -69,9 +67,8 @@ explicitly call the constructor.A class destructor is called when the object exp
 
 ##Question 7:
 
- These are two possible solutions (note that you must include cstring or string.h
-in order to use strncpy() or else you must include string to use the string
-class):
+ These are two possible solutions (note that you must include cstring or string.h in order to use strncpy() or else you must include string to use the string class):
+ 
 BankAccount::BankAccount(const char * client, const char * num, double bal)
 
 {
