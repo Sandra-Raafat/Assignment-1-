@@ -4,7 +4,7 @@
 
 Person::Person(const string & ln, const char * fn /* = "Heyyou" */) {
 	lname = ln;
-	strcpy_s(fname, fn);
+	strcpy(fname, fn);
 };
 
 void Person::Show() const {
